@@ -1,24 +1,22 @@
 package app
 
-import data.SmartDevice
-import data.Smartphone
+import data.Person
+
 
 fun newLine(){ println("\n") }
 
 fun main () {
-
     newLine()
 
-    val product1 = Smartphone("Samsung", "S24")
-    product1.zoomCamera = true
-    product1.getAll()
+    val product1 = Person("muhammad", "fariyd")
+    product1.sayHello("setia budi")
     newLine()
 
-    val product2 = SmartDevice("Apple","Macbook Pro 14 M3 Max","Laptop")
-    product2.getAll()
+    val product2 = Person("setia", "budi")
+    product2.sayHello(product1.fullName)
     newLine()
 
-    val product3 = SmartDevice("Nothing")
-    product3.getAll()
+    val product3 = Person("Nothing")
+    product3.sayHello("piscokz")
     newLine()
 }
