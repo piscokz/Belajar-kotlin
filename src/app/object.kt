@@ -15,5 +15,6 @@ fun main () {
     println(user1.fullName)
     user2.sayHello(user1.fullName)
     println(user3.fullName)
+    newLine()
 
 }
