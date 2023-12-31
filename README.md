@@ -1,3 +1,3 @@
 # Belajar-kotlin
 
-sebagai tempat riwayat saya dalam belajar OOP kotlin
+sebagai tempat riwayat code saya dalam belajar OOP kotlin
