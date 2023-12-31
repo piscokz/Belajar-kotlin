@@ -1,19 +1,19 @@
 package app
 
 
-import data.Coba
 import data.RegularUser
 import data.VipUser
-
-
 fun newLine(){ println("\n") }
 
 fun main () {
 
-    val product1 = VipUser("muhammad", "yoi")
-    val product2 = RegularUser("setia", "budi")
-    val product3 = RegularUser("Dimas")
-
+    val user1 = VipUser("muhammad", "fariyd")
+    val user2 = RegularUser("setia", "budi")
+    val user3 = RegularUser("Dimas")
     newLine()
+
+    println(user1.fullName)
+    user2.sayHello(user1.fullName)
+    println(user3.fullName)
 
 }
